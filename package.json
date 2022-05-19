@@ -12,11 +12,15 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "standard --fix"
   },
   "dependencies": {
     "gatsby": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
   }
 }
