@@ -4,5 +4,7 @@ module.exports = {
     title: 'Xtech Notes Test',
     siteUrl: 'https://www.yourdomain.tld'
   },
-  plugins: []
+  plugins: [
+    'gatsby-plugin-react-helmet'
+  ]
 }
