@@ -8,7 +8,7 @@ const GlobalStyles = () => {
           overflowX: 'hidden'
         },
         body: {
-          fontFamily: 'sans-serif',
+          fontFamily: '"游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif',
           lineHeight: 1.75,
           boxSizing: 'border-box'
         },
