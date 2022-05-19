@@ -7,6 +7,7 @@ const IndexPage = () => {
       <Helmet>
         <title>【体験談】プログラミング系の職業訓練校｜5週間目 | Xtechのーと</title>
         <link rel='icon' type='image/png' href={favicon} />
+        <meta name='robots' content='noindex' />
       </Helmet>
       <div>Xtechnotes Gatsby Test</div>
     </>
