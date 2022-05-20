@@ -1,4 +1,5 @@
 import Helmet from 'react-helmet'
+import Content from '../components/Content'
 import GlobalStyles from '../components/GlobalStyles'
 import Header from '../components/Header'
 import favicon from '../images/favicon.png'
@@ -13,6 +14,7 @@ const IndexPage = () => {
       </Helmet>
       <GlobalStyles />
       <Header />
+      <Content />
     </>
   )
 }
