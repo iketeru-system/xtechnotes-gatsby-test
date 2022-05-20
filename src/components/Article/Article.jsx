@@ -2,9 +2,9 @@ import Head from './Head'
 
 const Article = () => {
   return (
-    <div>
+    <article>
       <Head />
-    </div>
+    </article>
   )
 }
 
