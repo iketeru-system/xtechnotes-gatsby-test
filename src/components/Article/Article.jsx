@@ -1,7 +1,9 @@
+import Head from './Head'
+
 const Article = () => {
   return (
     <div>
-      Article
+      <Head />
     </div>
   )
 }
