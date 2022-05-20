@@ -1,6 +1,10 @@
+import Main from './Main'
+
 const Content = () => {
   return (
-    <div>Content</div>
+    <div>
+      <Main />
+    </div>
   )
 }
 
