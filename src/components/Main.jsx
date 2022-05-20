@@ -1,10 +1,11 @@
 import { css } from '@emotion/react'
 import { mq } from '../utilities/styleUtilities'
+import Article from './Article'
 
 const Main = () => {
   return (
     <div css={styles.main}>
-      Main
+      <Article />
     </div>
   )
 }
