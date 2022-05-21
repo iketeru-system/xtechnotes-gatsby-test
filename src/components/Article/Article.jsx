@@ -1,3 +1,4 @@
+import Content from './Content'
 import Head from './Head'
 import Thumb from './Thumb'
 
@@ -6,6 +7,7 @@ const Article = () => {
     <article>
       <Head />
       <Thumb />
+      <Content />
     </article>
   )
 }
