@@ -1,4 +1,5 @@
 import { Global, css } from '@emotion/react'
+import { colors } from '../utilities/styleUtilities'
 
 const GlobalStyles = () => {
   return (
@@ -17,6 +18,7 @@ const styles = css`
     font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
     line-height: 1.6;
     box-sizing: border-box;
+    color: ${colors.text}
   }
 
   * {
