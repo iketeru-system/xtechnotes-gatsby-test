@@ -1,4 +1,5 @@
 import Helmet from 'react-helmet'
+import '../fonts/icomoon.css'
 import Content from '../components/Content'
 import GlobalStyles from '../components/GlobalStyles'
 import Header from '../components/Header'
