@@ -2,6 +2,7 @@ import CapBox from './CapBox'
 import ContentContainer from './ContentContainer'
 import Heading2 from './Heading2'
 import Heading3 from './Heading3'
+import Pencil from './Pencil'
 import Tweet from './Tweet'
 import { useTwitter } from './useTwitter'
 
@@ -29,6 +30,7 @@ const Content = () => {
         </blockquote>
       </Tweet>
       <p>この日にはじめて、同じ掃除グループのクラスメイトと飲みに行きました。（もちろん感染対策済み）</p>
+      <Pencil>職業訓練には掃除の時間があり、掃除のグループがつくられています。</Pencil>
     </ContentContainer>
   )
 }
