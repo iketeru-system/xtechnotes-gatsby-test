@@ -42,6 +42,11 @@ const Content = () => {
       <p>職業訓練校では基本的には授業時間外でやらなければいけない課題は出されないため、休みの日は自分のしたい勉強に当てることができます。</p>
       <p>このお休みあって本当によかったーーーーー！！！！！</p>
       <p>わたしの場合は、今まで勉強したことがない×今授業でやっている×将来的にも必要になるだろうという条件に当てはまるPHPを、Progateを使って集中的に勉強していました。</p>
+      <Tweet>
+        <blockquote class='twitter-tweet' data-width='500' data-dnt='true'>
+          <p lang='ja' dir='ltr'>いろいろ中途半端になっちゃうと混乱しちゃうから、このゴールデンウィークはPHPにベットしてるんだけど、HTMLとかCSSとかJavaScript全然手つけてない。Javaも。<br /><br />この順番でよかったのかな？あとから追い上げれば問題ない？😂<a href='https://twitter.com/hashtag/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%88%9D%E5%BF%83%E8%80%85?src=hash&amp;ref_src=twsrc%5Etfw'>#プログラミング初心者</a><a href='https://twitter.com/hashtag/%E9%A7%86%E3%81%91%E5%87%BA%E3%81%97%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2?src=hash&amp;ref_src=twsrc%5Etfw'>#駆け出しエンジニア</a></p>&mdash; あん🔰プログラミング訓練中 (@333ACCC) <a href='https://twitter.com/333ACCC/status/1522198986404540417?ref_src=twsrc%5Etfw'>May 5, 2022</a>
+        </blockquote>
+      </Tweet>
     </ContentContainer>
   )
 }
