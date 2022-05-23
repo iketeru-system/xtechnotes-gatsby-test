@@ -29,4 +29,8 @@ const styles = css`
     font-size: inherit;
     line-height: inherit;
   }
+
+  a {
+    color: ${colors.link};
+  }
 `
