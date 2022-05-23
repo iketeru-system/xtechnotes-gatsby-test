@@ -1,4 +1,5 @@
 import CapBox from './CapBox'
+import Caution from './Caution'
 import ContentContainer from './ContentContainer'
 import Heading2 from './Heading2'
 import Heading3 from './Heading3'
@@ -49,6 +50,7 @@ const Content = () => {
       </Tweet>
       <p>クラスメイトの話を聞いていると、リフレッシュに使ったとか、家族との時間に使ったとか、本当にみんな好きな過ごし方をしていたようなので、休みを自由に使えるっていうのは職業訓練のメリットかなと思います。</p>
       <Heading2 id='id4'>今週の気づき</Heading2>
+      <Caution>以下は体験に基づいたものなので、学校によって環境が違うこともあるかと思います。</Caution>
     </ContentContainer>
   )
 }
