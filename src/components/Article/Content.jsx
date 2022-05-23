@@ -47,6 +47,8 @@ const Content = () => {
           <p lang='ja' dir='ltr'>いろいろ中途半端になっちゃうと混乱しちゃうから、このゴールデンウィークはPHPにベットしてるんだけど、HTMLとかCSSとかJavaScript全然手つけてない。Javaも。<br /><br />この順番でよかったのかな？あとから追い上げれば問題ない？😂<a href='https://twitter.com/hashtag/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%88%9D%E5%BF%83%E8%80%85?src=hash&amp;ref_src=twsrc%5Etfw'>#プログラミング初心者</a><a href='https://twitter.com/hashtag/%E9%A7%86%E3%81%91%E5%87%BA%E3%81%97%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2?src=hash&amp;ref_src=twsrc%5Etfw'>#駆け出しエンジニア</a></p>&mdash; あん🔰プログラミング訓練中 (@333ACCC) <a href='https://twitter.com/333ACCC/status/1522198986404540417?ref_src=twsrc%5Etfw'>May 5, 2022</a>
         </blockquote>
       </Tweet>
+      <p>クラスメイトの話を聞いていると、リフレッシュに使ったとか、家族との時間に使ったとか、本当にみんな好きな過ごし方をしていたようなので、休みを自由に使えるっていうのは職業訓練のメリットかなと思います。</p>
+      <Heading2 id='id4'>今週の気づき</Heading2>
     </ContentContainer>
   )
 }
