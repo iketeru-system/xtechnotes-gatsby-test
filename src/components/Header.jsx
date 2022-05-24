@@ -13,6 +13,8 @@ const Header = () => {
             width={178}
             height={40}
             alt='Xtechのーと'
+            loading='eager'
+            css={styles.logoImg}
           />
         </div>
       </div>
@@ -42,6 +44,12 @@ const styles = {
     padding: 16px 0;
     ${mq.mdDown} {
       padding: 10px 0;
+    }
+  `,
+
+  logoImg: css`
+    img {
+      opacity: 1 !important;
     }
   `
 }
