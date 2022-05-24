@@ -1,10 +1,11 @@
 import { css } from '@emotion/react'
 import { mq } from '../utilities/styleUtilities'
+import ProfileBox from './ProfileBox'
 
 const Sidebar = () => {
   return (
     <div css={styles.sidebar}>
-      Sidebar
+      <ProfileBox />
     </div>
   )
 }
@@ -13,9 +14,6 @@ export default Sidebar
 
 const styles = {
   sidebar: css`
-    padding: 200px 0;
-    background-color: #ccc;
-    text-align: center;
     ${mq.mdUp} {
       width: 304px;
     }
