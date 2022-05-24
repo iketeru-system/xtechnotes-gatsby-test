@@ -1,6 +1,7 @@
 import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { colors } from '../utilities/styleUtilities'
+import Button from './Button'
 
 const ProfileBox = () => {
   return (
@@ -21,24 +22,12 @@ const ProfileBox = () => {
         駆け出しエンジニアです。<br /><br />
         2022年4月から1年間、職業訓練校でHTML・CSS・JavaScript・PHP・Javaの勉強をしています。<br /><br />
         前職は、英語教材編集者×家庭教師でした。使いやすさ・理解のしやすさ・正確性を考慮した、良質なサービスを提供することを心がけています。
-        <div>
-          <a href='https://xtechnotes.com/profile/'>
+        <div css={styles.btnBox}>
+          <Button href='https://xtechnotes.com/profile/' target='_blank' rel='noopener'>
             READ MORE
-          </a>
+          </Button>
         </div>
       </div>
-      <ul>
-        <li>
-          <a href='https://twitter.com/333ACCC' target='_blank' rel='noopener noreferrer'>
-            <i />
-          </a>
-        </li>
-        <li>
-          <a href='https://xtechnotes.com/feed/' target='_blank' rel='noopener noreferrer'>
-            <i />
-          </a>
-        </li>
-      </ul>
     </div>
   )
 }
@@ -76,5 +65,10 @@ const styles = {
   text: css`
     padding: 14px;
     font-size: 14px;
+  `,
+
+  btnBox: css`
+    margin: 21px 0 7px;
+    text-align: center;
   `
 }
