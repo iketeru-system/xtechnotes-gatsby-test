@@ -2,6 +2,7 @@ import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { colors } from '../utilities/styleUtilities'
 import Button from './Button'
+import TwitterLink from './TwitterLink'
 
 const ProfileBox = () => {
   return (
@@ -26,6 +27,9 @@ const ProfileBox = () => {
           <Button href='https://xtechnotes.com/profile/' target='_blank' rel='noopener'>
             READ MORE
           </Button>
+        </div>
+        <div css={styles.twitterBox}>
+          <TwitterLink href='https://twitter.com/333ACCC' />
         </div>
       </div>
     </div>
@@ -68,7 +72,14 @@ const styles = {
   `,
 
   btnBox: css`
-    margin: 21px 0 7px;
+    margin-top: 21px;
+    text-align: center;
+  `,
+
+  twitterBox: css`
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
     text-align: center;
   `
 }
